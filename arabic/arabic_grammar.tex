@@ -1,0 +1,91 @@
+%!TeX program = xelatex
+
+\documentclass{article}
+
+\usepackage{geometry}
+\geometry{letterpaper}
+\usepackage{setspace}
+\usepackage{float}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{makecell}
+\setmainlanguage{english}
+\setotherlanguage{arabic}
+\newfontfamily\arabicfont[Script = Arabic]{Amiri} 
+
+\begin{document}
+\begin{titlepage}
+   \vspace*{\stretch{1.0}}
+   \begin{center}
+      \Large\textbf{Arabic Grammar}\\
+      \large\textit{Sarim Aleem}
+   \end{center}
+   \vspace*{\stretch{2.0}}
+\end{titlepage}
+
+\section{Introduction}
+
+\begin{Arabic}
+    السلام عليكم
+\end{Arabic}
+
+This is my guide to arabic grammar. I hope you find it useful.
+
+\section{Pronouns}
+In Arabic, we have Singular and Plural pronouns, the same applies to arabic
+
+\begin{table}[H]
+    \caption{Posessive conjugation}
+    \label{tab:}
+    \begin{center}
+        \begin{tabular}{c c}
+            English         & \textarabic{العربي} \\
+            \hline
+            \\
+            I              & \textarabic{انا} \\
+            you (masculine) & \textarabic{انتَ} \\
+            you (feminine)& \textarabic{انتِ} \\
+            he             & \textarabic{هو} \\
+            she             & \textarabic{هي} \\
+            we             & \textarabic{نحن} \\
+            they           & \textarabic{هم} \\
+        \end{tabular}
+    \end{center}
+\end{table}
+
+\section{Posessive Cojugation}
+
+In English, we don't have conjugation for posessive pronouns. if we say the word
+house (\textarabic{بيت}) out of context, it's not clear if it's my house, your
+house, their house, etc. Instead, we have to preface it with a pronoun (like my)
+
+In Arabic, this isn't the case. A noun with the appropriate suffix can give 
+information about the who posessed the noun:
+\begin{table}[H]
+    \caption{Posessive conjugation}
+    \begin{center}
+        \begin{tabular}{c c c c c}
+            English         & \textarabic{العربي}& Example          & \textarabic{مثال} & notes\\
+            \hline
+            \\
+            my              & \textarabic{ي}     & my house         & \textarabic{بيتي} & \\
+            your (masculine)& \textarabic{ك}     & your house       & \textarabic{بيتَك}& \makecell{previous consonant should \\ be prefaced with fatha} \\
+            your (feminine)& \textarabic{ك}     & your house       & \textarabic{بيتِك}& \makecell{previous consonant should \\ be prefaced with kasra} \\
+            his             & \textarabic{ه}     & his house        & \textarabic{بيته} & \\
+            her             & \textarabic{ها}    & her house        & \textarabic{بيتها}& \\
+            our             & \textarabic{نا}    & our house        & \textarabic{بيتنا}& \\
+            their           & \textarabic{هم}    & their house house& \textarabic{بيتهم}& \\
+        \end{tabular}
+    \end{center}
+\end{table}
+
+
+\end{document}
+
+
+
+
+
+
+
+
